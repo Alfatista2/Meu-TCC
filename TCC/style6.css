@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.fundo{
+z-index : 15;
+background-image: url("n e aq");
+}
+.container {
+    /*tudo*/
+    
+    background-image: url("Design_sem_nome.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1;
+}
+.content {
+    /*espaço no meio com as coisas*/
+    background-color: #fff;
+    
+    border-radius: 15px;
+    width: 50%;
+    height: 540px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content::before {
+    /*parte azul cm direx escrito*/
+    content: "";
+    position: absolute;
+    background-color: #1d20a3;
+    width: 100%;
+    height: 30%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 0px;
+    
+}
+.title {
+   /*config do titulo ate o prox*/
+    font-size: 52px;
+    margin-bottom: 22rem;
+    margin-left: 18rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-primary {
+    color: #fff;
+}
+.title-second {
+    color: #1d20a3;
+    /**/
+}
+.description {
+    /*config embaixo do titulo*/
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.description-primary {
+    color: #fff;
+}
+.description-second {
+    color: #1d20a3;
+    /**/
+}
+.btn {
+    /*config botao*/
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 20px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 3rem;
+}
+
+.btn-second {
+    background-color: #1d20a3;
+    border: 1px solid #1d20a3;
+    transition: background-color .5s;
+}
+.btn-second:hover {
+    background-color: #fff;
+    border: 1px solid #1d20a3;
+    color: #1d20a3;
+}
+.first-content {
+    display: flex;
+}
+.first-content .second-column {
+    z-index: 11;
+}
+.first-column {
+    text-align: center;
+    width: 40%;
+    z-index: 10;
+}
+.second-column {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    border-radius: 15px;
+    margin-right: 15rem;
+    width: 59%;
+}
+.form input {
+    height: 55px;
+    
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+}
+
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.icon-modify {
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+
+
+
+
+
+
+.second-content {
+    position: absolute;
+    display: flex;
+}
+.second-content .first-column {
+    order: 2;
+    z-index: -1;
+}
+.second-content .second-column {
+    order: 1;
+    z-index: -1;
+}

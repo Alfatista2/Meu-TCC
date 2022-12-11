@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<style>
+     body{
+      
+    
+      
+     }
+      img{
+position:absolute;
+border-radius: 10px;
+margin-top: 0rem;
+margin-left: 35rem;
+padding: 20px 50px;
+}
+div{
+position:absolute;
+top:3.70in;
+left:3.90in;
+width:7.13in;
+line-height:0.33in;
+}
+
+p{
+position:absolute;
+
+text-align: justify;
+font-style:normal;
+font-weight:normal;
+font-size:13pt;
+font-family:Verdana;
+color:#000000;
+}
+span {
+font-style:normal;
+font-weight:normal;
+font-size:11pt;
+font-family:Verdana;
+color:#000000;
+}
+</style>
+
+</html>
